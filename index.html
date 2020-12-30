@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <table border="0" cellspacing = "2" width="406px">
+            <thead>
+                <tr>
+                    <th colspan="5" id="solve"></th>
+                </tr>
+                <tr>
+                    <th colspan="5" id="dis">0</th>
+                </tr>
+                <tr>
+                    <th class="m">DEG</th>
+                    <th class="m">F-E</th>
+                </tr>
+                <tr>
+                    <th class="m fade">MC</th>
+                    <th class="m fade">MR</th>
+                    <th class="m">M+</th>
+                    <th class="m">M-</th>
+                    <th class="m">MS</th>
+                </tr>
+                <tr id="tri">
+                    <th id= "trig">Trigonometry</th>
+                    <th id= "func">Function</th>
+                    <th colspan="3"></th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>2<sup>nd</sup></td>
+                    <td>&pi;</td>
+                    <td>e</td>
+                    <td id="clear">C</td>
+                    <td onclick="backSpace()">space</td>
+                </tr>
+                <tr>
+                    <td>x<sup>2</sup></td>
+                    <td>1/x</td>
+                    <td>|x|</td>
+                    <td>exp</td>
+                    <td>mod</td>
+                </tr>
+                <tr>
+                    <td>x<sup>3</sup></td>
+                    <td id="openBrac">(</td>
+                    <td id="closeBrac">)</td>
+                    <td><i>n</i>!</td>
+                    <td class="ops">÷</td>
+                </tr>
+                <tr>
+                    <td>x<sup>y</sup></td>
+                    <td class="bb num">7</td>
+                    <td class="bb num">8</td>
+                    <td class="bb num">9</td>
+                    <td class="ops">×</td>
+                </tr>
+                <tr>
+                    <td>10<sup>x</sup></td>
+                    <td class="bb  num">4</td>
+                    <td class="bb num">5</td>
+                    <td class="bb num">6</td>
+                    <td  class="ops">-</td>
+                </tr>
+                <tr>
+                    <td>log</td>
+                    <td class="bb num">1</td>
+                    <td class="bb num">2</td>
+                    <td class="bb num">3</td>
+                    <td  class="ops">+</td>
+                </tr>
+                <tr>
+                    <td>ln</td>
+                    <td class="bb" onclick="pom()">+/-</td>
+                    <td class="bb num">0</td>
+                    <td class="bb" onclick="dot()">.</td>
+                    <td id="equal" onclick="equal()">=</td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+

@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+*    {
+    font-family:  'arial-black','sans-serif';
+}
+table {
+    height: 770px;
+    color: floralwhite;
+    background-color: rgba(0, 0, 0, 0.857);
+}
+
+td {
+    text-align: center;
+    width: 85px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.555);
+    font-size: 11px;
+    cursor: pointer;
+}
+
+
+#dis {
+    height: 80px;
+    border: 0;
+    font-size: 60px;
+    padding-right: 25px;
+    text-align: right;
+    max-width: 375px;
+    font-weight: 700;
+
+}
+#solve {
+    padding-top: 10px;
+    height: 22px;
+    border: 0;
+    padding-right: 25px;
+    text-align: right;
+    color: rgba(230, 220, 220, 0.571);
+}
+.m {
+    background-color: rgba(0, 0, 0, 0.01);
+    height: 45px;
+    border: 0px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.bb {
+    background-color: black;
+    font-size: 15px;
+}
+#tri {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 45px;
+    font-size: 12px;
+    cursor: pointer;
+}
+#tri > th {
+    border: 0px;
+}
+td:hover {
+    background-color: rgba(137, 129, 129, 0.68);
+}
+.m:hover {
+    background-color: rgba(137, 129, 129, 0.68);
+}
+#trig:hover {
+    background-color: rgba(137, 129, 129, 0.68);
+}
+#func:hover {
+    background-color: rgba(137, 129, 129, 0.68);
+}
+#equal {
+    background-color: rgba(23, 243, 255, 0.35);
+}
+.fade {
+   color: rgba(230, 220, 220, 0.108);
+}
+#equal:hover {
+    background-color: rgba(23, 212, 255, 0.775);
+}
+#trig {
+    font-weight: lighter;
+}
+#func {
+    font-weight: lighter;
+}
